@@ -17,8 +17,8 @@ export function Circle() {
   return (
   <>
     <div className="relative flex h-screen gap-[24px] w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background md:shadow-xl">
-      <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center md:text-5xl text-[36px]  font-semibold leading-none text-transparent dark:from-white dark:to-black">
-        We’ve really sped up our workflow
+      <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center md:text-[50px] text-[36px]  font-semibold leading-none text-transparent dark:from-white dark:to-black">
+        We’ve really speed up our workflow
       </span>
       <p className=" md:p-2 p-5 text-[18px] md:text-sm text-center">
         <span className=" font-semibold">

@@ -115,7 +115,7 @@ function ConfettiButton({ options, children, ...props }: ConfettiButtonProps) {
 
   return (
     <Button
-      className="bg-[#7F6EFC] w-full hover:bg-[#9487f8]"
+      className="bg-[#7F6EFC] z-10 w-full hover:bg-[#9487f8]"
       onClick={handleClick}
       {...props}
     >

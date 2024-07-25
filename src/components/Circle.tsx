@@ -16,7 +16,7 @@ import { Hero } from "./Hero";
 export function Circle() {
   return (
   <>
-    <div className="relative flex h-screen gap-[24px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+    <div className="relative flex h-screen gap-[24px] w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background md:shadow-xl">
       <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center md:text-5xl text-[36px]  font-semibold leading-none text-transparent dark:from-white dark:to-black">
         We’ve really sped up our workflow
       </span>
@@ -35,11 +35,11 @@ export function Circle() {
       </p>
 
       <div className=" md:flex-row  flex flex-col-reverse  gap-3">
-        <Button className="bg-white border shadow-sm text-black w-full hover:bg-[#f2f1f1]">
+        <Button className="bg-white z-10 border shadow-sm text-black w-full hover:bg-[#f2f1f1]">
           <ArrowRightIcon className="mr-2 h-5 w-5" /> Start Learning Today
         </Button>
 
-        <ConfettiBtn title={"Button"} />
+        <ConfettiBtn   title={"Button"} />
       </div>
 
       {/* Inner Circles */}

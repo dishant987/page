@@ -34,7 +34,7 @@ export function Navbar() {
         navItems={navItems}
       />
 
-      <div className=" lg:hidden p-4 flex flex-row justify-between border-b-4 border-black rounded-2xl m-4 shadow-2xl ">
+      <div className=" lg:hidden p-4 flex flex-row justify-between border-b-4 border-black rounded-2xl m-4  ">
         <h1 className=" lg:hidden text-4xl">
           <span className=" text-purple-800">N</span>AV
         </h1>

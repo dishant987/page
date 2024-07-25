@@ -4,7 +4,7 @@ import { FloatingNav } from "../components/ui/floating-navbar";
 import { IconBase } from "icons-react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
-import { ArrowDown } from "lucide-react";
+import { IoIosArrowDown } from "react-icons/io";
 // import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 
 export function Navbar() {
@@ -17,15 +17,17 @@ export function Navbar() {
     {
       name: "Products",
       link: "/about",
-      icon: <ArrowDown className="h-4 w-4 text-neutral-500 dark:text-white"/>,
+      icon: <IoIosArrowDown className="h-6 w-6 text-neutral-500 dark:text-white"/>,
     },
     {
       name: "Resources",
       link: "/contact",
+      icon: <IoIosArrowDown className="h-6 w-6 text-neutral-500 dark:text-white"/>,
     },
     {
       name: "Pricing",
       link: "/",
+     
     },
   ];
 
